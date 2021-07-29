@@ -1,0 +1,4 @@
+FROM centos/mysql-57-centos7
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=password
+ENV MYSQL_DATABASE=employeedb
